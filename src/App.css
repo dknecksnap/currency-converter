@@ -83,13 +83,4 @@ hr {
   
 }
 
-/*@media(max-width:415px){
-    .chart{  transform: rotate(270deg);
-        transform-origin: center;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width:400px;
-    height: 400px;
-    }
-}
+
