@@ -1,0 +1,95 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+hr {
+  border-top: 0.1rem solid black;
+}
+
+.conversion {
+  padding-top: 0.2rem;
+  color: green;
+  font-weight: bold;
+  font-size: large;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+@media (min-width: 900px) {
+  .firstGrid {
+    border: solid 0px black;
+    padding-right: 29px;
+  }
+  .chart {
+    width: 100%;
+    height: 470px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .info {
+    padding: 20px;
+    margin: 25px 35px 0px 68px;
+  }
+
+  .chartInfo {
+    position: relative;
+  }
+  .convertButton{
+        margin-bottom: "0.5rem";
+        position: "relative";
+        top: "0.5rem";
+      }
+  
+}
+
+@media (max-width: 899px) {
+  .info {
+    order: 0;
+    padding: 20px;
+    margin: 25px 0px 0px 0px;
+  }
+
+  .chart {
+    margin-top: 2rem;
+    width: 100%;
+    height:470px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper div:first-child {
+    order: 1;
+  }
+
+
+  h2{
+    text-align: center;
+    padding-top:1rem;
+  }
+
+.message{
+ margin-top:0.5rem;
+ margin-bottom: 0.5rem;
+}
+  
+}
+
+/*@media(max-width:415px){
+    .chart{  transform: rotate(270deg);
+        transform-origin: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    height: 400px;
+    }
+}
